@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <title>Drag'n'Drop JS</title>
+</head>
+<body>
+
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1475790052866-72dd161a712f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);">
+    <div class="container">
+      <h1><strong>DRAG N DROP</strong> testing...!</h1>
+    </div>
+  </div>
+
+
+
+  <div class="cards" data-sortable = ".card " id ="sort1">
+  <div class="card-category" data-position = "0" data-id = "1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+    <p>whatever<p>
+  </div>
+
+  <div class="card-category" data-position = "1" data-id = "2" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+    <p>whatever<p>
+  </div>
+
+  <div class="card-category" data-position = "2" data-id = "3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
+    <p>whatever<p>
+  </div>
+
+    <div class="card-category" data-position = "3" data-id = "4" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+    <p>whatever<p>
+  </div>
+
+  <div class="card-category" data-position = "4" data-id = "5" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+    <p>whatever<p>
+  </div>
+
+  <div class="card-category" data-position = "5" data-id = "6" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
+    <p>whatever<p>
+  </div>
+
+    <div class="card-category" data-position = "6" data-id = "7" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+    <p>whatever<p>
+  </div>
+
+  <div class="card-category" data-position = "7" data-id = "8" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+    <p>whatever<p>
+  </div>
+
+  <div class="card-category" data-position = "8" data-id = "9" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
+    <p>whatever<p>
+  </div>
+
+</div>
+
+
+  <script src="sorter.js"></script>
+  <script type="text/javascript">
+    sortable = new Sortable(document.querySelector('#sort1'))
+
+  </script>
+
+</body>
+</html>
